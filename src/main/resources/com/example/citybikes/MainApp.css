@@ -1,0 +1,26 @@
+/* MainApp.css */
+.root {
+    -fx-background-color: #f5f5f5; /* Light gray background color for the entire application */
+}
+
+#searchField {
+    -fx-prompt-text-fill: #808080; /* Light gray prompt text color for the search field */
+    -fx-font-size: 14px; /* Slightly bigger font size for the search field */
+}
+
+#networkListView {
+    -fx-background-color: #ffffff; /* White background color for the list view */
+    -fx-border-color: #cccccc; /* Light gray border color for the list view */
+    -fx-border-width: 2px; /* Slightly thicker border width for the list view */
+}
+
+.list-cell {
+    -fx-text-fill: #333333; /* Dark gray text color for the list view items */
+    -fx-font-size: 16px; /* Slightly bigger font size for the list view items */
+    -fx-padding: 8px; /* Slightly larger padding around each list view item */
+}
+
+.list-cell:selected {
+    -fx-background-color: #0078d4; /* Blue background color for selected list view items */
+    -fx-text-fill: #ffffff; /* White text color for selected list view items */
+}

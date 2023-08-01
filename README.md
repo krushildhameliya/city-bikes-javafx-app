@@ -1,5 +1,3 @@
-# citybikes-javafx-app
-
 # City Bikes JavaFX Application
 
 This is a JavaFX application that displays information about city bike networks. It allows users to search for city bike networks by name or city and view the details of each network.
